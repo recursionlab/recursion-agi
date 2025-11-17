@@ -1,0 +1,21 @@
+\begin{thebibliography}{9}
+
+\bibitem{godel1931} 
+Gödel, K. (1931). *On Formally Undecidable Propositions*. Mathematical Journal.
+
+\bibitem{schmidhuber2006} 
+Schmidhuber, J. (2006). *Gödel Machines: Fully Self-Referential Optimal Universal Problem Solvers*. Journal of Artificial Intelligence Research.
+
+\bibitem{openai2023} 
+OpenAI Research Team. (2023). *GPT-4 Technical Report*. OpenAI. Retrieved from \url{https://openai.com/research/gpt-4}
+
+\bibitem{sutton2018} 
+Sutton, R. S., & Barto, A. G. (2018). *Reinforcement Learning: An Introduction*. MIT Press.
+
+\bibitem{goodfellow2016} 
+Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press.
+
+\bibitem{boyd2004} 
+Boyd, S., & Vandenberghe, L. (2004). *Convex Optimization*. Cambridge University Press.
+
+\end{thebibliography}

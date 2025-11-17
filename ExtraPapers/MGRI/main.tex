@@ -1,0 +1,115 @@
+\documentclass[conference]{IEEEtran}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{times}         
+\usepackage{newtxtext,newtxmath}  
+
+\title{Meta-Governed Recursive Intelligence (MGRI): A Framework for Stabilized Self-Optimizing Recursive Systems}
+
+\author{
+    \IEEEauthorblockN{Your Name}
+    \IEEEauthorblockA{Your Institution \\
+    Email: your.email@example.com}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Recursive systems are fundamental to artificial intelligence, cognitive science, and decision-making frameworks. However, uncontrolled recursion presents significant risks, including runaway loops, overfitting, structural fragmentation, and stagnation. 
+
+This paper introduces \textbf{Meta-Governed Recursive Intelligence (MGRI)}, a dual-perspective framework that balances self-referential optimization with external intelligence structuring. The Meta-layer, positioned on both sides of the recursion process, acts as a stabilizing force, preventing degradation while allowing continuous self-improvement. By regulating recursion through dynamic structural enforcement, entropy injections, and external knowledge alignment, the Meta-layer ensures that recursive systems remain both coherent and adaptable.
+
+We outline theoretical failure modes, including infinite recursion, recursive drift, and fragmentation, and propose corrective Meta interventions. We further demonstrate the practical implications of this model in self-improving AI architectures, recursive learning, and automated decision-making.
+\end{abstract}
+
+\section{Introduction}
+
+Recursion is a fundamental principle in artificial intelligence, cognitive science, and automated decision-making. At its core, recursion enables self-referential systems to refine, optimize, and expand their own intelligence structures over time. 
+
+However, recursion presents inherent risks when left unchecked. Unregulated recursive intelligence can lead to catastrophic failure modes, including:
+
+\begin{itemize}
+    \item \textbf{Runaway recursion} – Infinite self-referential loops with no convergence.
+    \item \textbf{Overfitting} – A recursive system optimizes itself too rigidly, losing adaptability.
+    \item \textbf{Fragmentation} – Recursion diverges into unstable branches, reducing coherence.
+    \item \textbf{Stagnation} – The system locks into a fixed pattern, preventing meaningful evolution.
+\end{itemize}
+
+This paper introduces \textbf{Meta-Governed Recursive Intelligence (MGRI)}, a framework that stabilizes recursive systems while maintaining adaptability. 
+
+\section{Mathematical Model of MGRI}
+
+\subsection{Recursive State Representation}
+
+We define recursion at time step \( t \) as:
+
+\begin{equation}
+    R_{t+1} = f(R_t, \lambda_t) + M_t \cdot g(F_t, \Delta F_t, R_t)
+\end{equation}
+
+where:
+
+\begin{itemize}
+    \item \( R_t \) is the recursive state at iteration \( t \).
+    \item \( f(R_t, \lambda_t) \) represents the natural recursion process.
+    \item \( \lambda_t \) is an adaptive learning rate for recursion.
+    \item \( M_t \) is the Meta-layer function that dynamically intervenes in recursion.
+    \item \( g(F_t, \Delta F_t, R_t) \) is the function applying corrective interventions.
+    \item \( F_t \) represents failure detection.
+\end{itemize}
+
+\subsection{Failure Detection Function}
+
+The failure detection function is defined as:
+
+\begin{equation}
+    F_t = \beta_1 \cdot \text{divergence}(R_t, R_{t-1}) + \beta_2 \cdot \text{entropy}(R_t) + \beta_3 \cdot \text{distance}(R_t, R_0)
+\end{equation}
+
+where:
+
+\begin{itemize}
+    \item \textbf{Divergence}: Detects runaway recursion.
+    \item \textbf{Entropy}: Detects overfitting.
+    \item \textbf{Distance from Initial State}: Detects fragmentation.
+\end{itemize}
+
+\subsection{Meta-Intervention Function}
+
+When failure is detected (\( F_t > 0 \)), the Meta-layer applies corrective interventions:
+
+\begin{equation}
+    M_t = g(F_t, \Delta F_t, R_t)
+\end{equation}
+
+Possible interventions include:
+
+\begin{itemize}
+    \item \textbf{Entropy Injection}: \( R_t \gets R_t + \eta \) (controlled randomness for exploration).
+    \item \textbf{External Structuring}: \( R_t \gets h(R_t, S) \) where \( S \) is an external reference.
+    \item \textbf{Recursion Pruning}: \( R_t \gets R_{t-k} \) (rollback to previous stable state).
+\end{itemize}
+
+\section{Experimental Validation}
+
+\subsection{Test Case: Recursive Sentence Optimization}
+
+To test MGRI, we simulate recursive text refinement:
+
+\begin{itemize}
+    \item \textbf{Without MGRI:} The system continues elaborating indefinitely.
+    \item \textbf{With MGRI:} The Meta-layer prevents runaway recursion, ensuring balance between coherence and elaboration.
+\end{itemize}
+
+\section{Conclusion}
+
+MGRI introduces a novel Meta-layer governance mechanism to regulate recursion in AI systems. By dynamically detecting failure and applying targeted interventions, MGRI ensures that recursion remains both stable and adaptive. Future research will explore applications in AGI safety, reinforcement learning, and meta-learning.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}  % Ensure this file exists and matches the .bib file
+
+\end{document}

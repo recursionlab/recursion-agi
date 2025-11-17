@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{biblatex} % Reference management
+\addbibresource{references.bib} % Reference file
+
+\geometry{a4paper, margin=1in}
+
+\title{\textbf{Meta-Governed Recursive Intelligence (MGRI):} \\ A Framework for Stabilized, Self-Optimizing Recursive Systems}
+\author{Kory Ogden \\ \texttt{koryogden@gmail.com}}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Recursive processes are fundamental to artificial intelligence—they empower systems, from large language models to reinforcement learning agents, to self-optimize over time. However, unregulated recursion risks catastrophic failures such as runaway loops, overfitting, structural fragmentation, and stagnation. In this paper, we introduce \textbf{Meta-Governed Recursive Intelligence (MGRI)}, a novel framework that dynamically regulates recursion through a dual-perspective Meta-layer. This Meta-layer continuously monitors recursive progress using a composite failure detection function and applies adaptive interventions (including entropy injection, external structuring, and pruning) to stabilize the process while preserving self-improvement.
+
+Our framework is formalized by a governing equation that integrates:
+\begin{itemize}
+    \item A natural recursive transformation with an adaptive learning rate,
+    \item A continuous failure detection function based on divergence, entropy, and drift from the original state, and
+    \item A predictive, adaptive Meta-intervention function that acts as needed when failure signals intensify.
+\end{itemize}
+We outline a proposed experimental framework—employing Bootstrap Resampling and statistical analysis—to evaluate MGRI’s impact on tasks such as recursive text refinement and reinforcement learning stability. Future work will implement these tests to assess metrics such as convergence rate, entropy variation, and failure mode reduction.
+
+MGRI thus offers a scalable, adaptive, and ethically aligned solution for governing recursion in self-improving AI systems, with far-reaching implications for AI alignment, meta-learning, and autonomous decision-making.
+\end{abstract}
+
+\section{Introduction}
+\subsection{Background and Motivation}
+Recursion is a core mechanism in artificial intelligence, cognitive science, and automated decision-making. Whether it is a neural network fine-tuning its parameters, a reinforcement learning agent updating its policy, or an automated system refining its strategies, recursive processes enable self-referential optimization and continuous improvement. However, the very strength of recursion also harbors significant risks:
+
+\begin{itemize}
+    \item \textbf{Runaway Recursion:} Unchecked recursive loops can continue indefinitely, consuming resources without converging on a solution.
+    \item \textbf{Overfitting and Rigidity:} Excessively tight optimization can cause a system to lock into a narrow solution space, reducing its ability to generalize.
+    \item \textbf{Fragmentation and Drift:} Recursive updates may diverge, fragmenting the system’s outputs from its intended objectives.
+    \item \textbf{Stagnation:} Recursion might settle into repetitive patterns, stifling meaningful progress.
+\end{itemize}
+
+Existing approaches—such as hardcoded thresholds, gradient clipping, or externally imposed stopping conditions—offer only static, inflexible control over recursion. While frameworks like Gödel Machines or self-modifying AIs have attempted internal regulation, they often lack dynamic, real-time intervention mechanisms.
+
+\subsection{Introducing Meta-Governed Recursive Intelligence (MGRI)}
+\textbf{Meta-Governed Recursive Intelligence (MGRI)} addresses these challenges by introducing a dynamic Meta-layer that governs recursion from two complementary perspectives:
+
+\begin{enumerate}
+    \item \textbf{Internal Self-Optimization:} The system recursively refines its own state.
+    \item \textbf{External Structuring:} The recursive process is continuously aligned with external knowledge and constraints.
+\end{enumerate}
+
+The Meta-layer actively monitors the recursive process using a composite failure detection function and intervenes adaptively—injecting entropy to promote diversity, enforcing external constraints to maintain coherence, or pruning excessive recursion to prevent runaway loops.
+
+\section{Mathematical Model}
+Our mathematical model formalizes the recursive process and the Meta-governance mechanism. It defines how the system’s state evolves, how failures are detected, and how corrective interventions are applied.
+
+\subsection{Recursive State Evolution}
+Let $R_t$ denote the recursive state at iteration $t$. In a natural, unregulated recursive system, the state evolves according to:
+
+\[
+R_{t+1} = f(R_t, \lambda_t)
+\]
+
+where:
+
+\begin{itemize}
+    \item $f$ is the recursive transformation function.
+    \item $\lambda_t$ is an adaptive learning rate that controls the update magnitude.
+\end{itemize}
+
+\section{References}
+\printbibliography
+
+\end{document}

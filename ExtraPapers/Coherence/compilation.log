@@ -1,0 +1,51 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex.fmt)
+ restricted \write18 enabled.
+entering extended mode
+(unified_mandate.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+(D:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(D:\MiKTeX\tex/latex/base\size10.clo))
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(D:\MiKTeX\tex/latex/graphics\keyval.sty)
+(D:\MiKTeX\tex/generic/iftex\ifvtex.sty (D:\MiKTeX\tex/generic/iftex\iftex.sty)
+) (C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(D:\MiKTeX\tex/latex/amsmath\amsmath.sty
+For additional information on amsmath, use the `?' option.
+(D:\MiKTeX\tex/latex/amsmath\amstext.sty
+(D:\MiKTeX\tex/latex/amsmath\amsgen.sty))
+(D:\MiKTeX\tex/latex/amsmath\amsbsy.sty)
+(D:\MiKTeX\tex/latex/amsmath\amsopn.sty))
+(D:\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(D:\MiKTeX\tex/latex/amsfonts\amsfonts.sty))
+(D:\MiKTeX\tex/latex/base\textcomp.sty)
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/tipa\tipa.sty
+(D:\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/tipa\t3enc.def)))
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/parskip\parskip.sty
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty)
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty))
+(D:\MiKTeX\tex/latex/etoolbox\etoolbox.sty))
+(D:\MiKTeX\tex/latex/tools\longtable.sty)
+(D:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def) (unified_mandate.aux)
+(C:\Users\ANN\AppData\Roaming\MiKTeX\tex/latex/tipa\t3cmr.fd)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(D:\MiKTeX\tex/latex/amsfonts\umsa.fd) (D:\MiKTeX\tex/latex/amsfonts\umsb.fd)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 ... must maintain Optimal Progression (\Delta
+                                                  ), defined as the most ele...
+
+? 
+! Emergency stop.
+<inserted text> 
+                $
+l.20 ... must maintain Optimal Progression (\Delta
+                                                  ), defined as the most ele...
+
+!  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on unified_mandate.log.
